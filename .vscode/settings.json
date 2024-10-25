@@ -1,0 +1,11 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "**/*.json",
+                "!/.vscode/*.json"
+            ],
+            "url": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/refs/heads/main/docs/artifact.schema.json"
+        }
+    ]
+}
