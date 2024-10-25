@@ -1,0 +1,31 @@
+{
+  "id": "tools/python",
+  "version": "2.7.11",
+  "summary": "Portable Python interpreter",
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://github.com/ndt-hil/python_binaries/raw/refs/heads/master/2.7.11/windows_x86_64.zip",
+        "sha256": "74608eb258d1589ebc7f312a7581a4023bcecb41aa86e5d199c7eab2b1c90cdd",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "."
+        }
+      }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://github.com/ndt-hil/python_binaries/raw/refs/heads/master/2.7.11/linux_x86_64.tar.gz",
+        "sha256": "64a9931ae65df218eb372f8baa5e995eb385a88a66dd24b338c339b4cf12a99c",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "."
+        }
+      }
+    }
+  }
+}

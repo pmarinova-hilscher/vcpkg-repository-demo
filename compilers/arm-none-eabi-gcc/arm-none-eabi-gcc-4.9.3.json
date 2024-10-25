@@ -1,0 +1,37 @@
+{
+  "id": "compilers/arm/arm-none-eabi-gcc",
+  "version": "4.9.3",
+  "summary": "GCC compiler for ARM CPUs",
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-win32.zip",
+        "sha256": "9ada30aefdf6e058cd4958988ce70f3e4c408a2edbb00c0adab25c8e75cf4c20",
+        "strip": 0
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "GCC_ARM_PATH": "."
+        }
+      }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://bitbucket.org/hilscher/gcc-arm-none-eabi-4_9-build/downloads/gcc-arm-none-eabi-4_9-2024q3-20240924-linux.tar.bz2",
+        "sha256": "40a400ccb8debdba97b10300b80cdad695298f2a01c2055cb0ddda20f7be7fbd",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "GCC_ARM_PATH": "."
+        }
+      }
+    }
+  }
+}

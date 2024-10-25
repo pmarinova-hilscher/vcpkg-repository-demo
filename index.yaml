@@ -1,0 +1,64 @@
+items:
+  [
+    compilers/arm-none-eabi-gcc/arm-none-eabi-gcc-4.9.3.json,
+    tools/python/python-2.7.11.json,
+    tools/waf/waf-1.6.11.json
+  ]
+indexes:
+  IdentityKey/id:
+    keys:
+      compilers/arm/arm-none-eabi-gcc: [ 0 ]
+      tools/build/waf: [ 2 ]
+      tools/python: [ 1 ]
+    words:
+      arm: [ 0 ]
+      arm-none: [ 0 ]
+      arm-none-eabi: [ 0 ]
+      arm-none-eabi-gcc: [ 0 ]
+      arm/arm: [ 0 ]
+      arm/arm-none: [ 0 ]
+      arm/arm-none-eabi: [ 0 ]
+      arm/arm-none-eabi-gcc: [ 0 ]
+      build: [ 2 ]
+      build/waf: [ 2 ]
+      compilers: [ 0 ]
+      compilers/arm: [ 0 ]
+      compilers/arm/arm: [ 0 ]
+      compilers/arm/arm-none: [ 0 ]
+      compilers/arm/arm-none-eabi: [ 0 ]
+      compilers/arm/arm-none-eabi-gcc: [ 0 ]
+      eabi: [ 0 ]
+      eabi-gcc: [ 0 ]
+      gcc: [ 0 ]
+      none: [ 0 ]
+      none-eabi: [ 0 ]
+      none-eabi-gcc: [ 0 ]
+      python: [ 1 ]
+      tools: [ 1, 2 ]
+      tools/build: [ 2 ]
+      tools/build/waf: [ 2 ]
+      tools/python: [ 1 ]
+      waf: [ 2 ]
+  SemverKey/version:
+    keys:
+      1.6.11: [ 2 ]
+      2.7.11: [ 1 ]
+      4.9.3: [ 0 ]
+  StringKey/summary:
+    keys:
+      GCC compiler for ARM CPUs: [ 0 ]
+      Portable Python interpreter: [ 1 ]
+      Waf build automation tool: [ 2 ]
+    words:
+      ARM: [ 0 ]
+      CPUs: [ 0 ]
+      GCC: [ 0 ]
+      Portable: [ 1 ]
+      Python: [ 1 ]
+      Waf: [ 2 ]
+      automation: [ 2 ]
+      build: [ 2 ]
+      compiler: [ 0 ]
+      for: [ 0 ]
+      interpreter: [ 1 ]
+      tool: [ 2 ]

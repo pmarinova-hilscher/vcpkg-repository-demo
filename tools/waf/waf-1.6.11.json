@@ -1,0 +1,37 @@
+{
+  "id": "tools/build/waf",
+  "version": "1.6.11",
+  "summary": "Waf build automation tool",
+  "requires": {
+    "tools/python": "2.7.11"
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://github.com/ndt-hil/waf_binaries/raw/refs/heads/master/1.6.11/win32/waf-1.16.11.zip",
+        "sha256": "24eb6afbb4d689af1ed57d8eb4d3c101371356abe496357029d5ff82a0d855d2",
+        "strip": 0
+      },
+      "exports": {
+        "paths": {
+          "PATH": "dist"
+        }
+      }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://github.com/ndt-hil/waf_binaries/raw/refs/heads/master/1.6.11/linux_x86_64/waf-1.16.11.zip",
+        "sha256": "9791486652a2029edc2a1940ad5987a0d97ab95738ae31dfe7c6f314fcd668fa",
+        "strip": 0
+      },
+      "exports": {
+        "paths": {
+          "PATH": "dist"
+        },
+        "aliases": {
+          "waf": "waf-1.6.11"
+        }
+      }
+    }
+  }
+}
